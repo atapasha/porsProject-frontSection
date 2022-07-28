@@ -1,0 +1,71 @@
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+input {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+label {
+    font-size: 22px;
+    color: rgb(8, 2, 2);
+}
+
+span {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+input:invalid[focused="true"] {
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"]~span {
+    display: block;
+}
+
+
+.RegisterForm {
+    margin: 20px auto;
+
+    left: 20% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    background: rgb(255, 255, 255);
+    height: 100%;
+    box-shadow: rgb(171 169 171) 0px 0px 5px 0px;
+    overflow: auto;
+    min-height: calc(100vh - 250px);
+    border: 1px solid #FE5200;
+    direction: rtl;
+    border-radius: 15px;
+}
+
+.RegisterBtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FE5200;
+    border: 1px solid #fff;
+    color: #fff;
+    border: #FE5200;
+    border-radius: 5px;
+    height: 55px;
+    width: 160px;
+}
+
+@media (max-width:1041px) {
+    .RegisterForm {
+        margin: 20px 20px;
+
+    }
+}

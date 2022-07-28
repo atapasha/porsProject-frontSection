@@ -1,0 +1,102 @@
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #ff5a00;
+    text-decoration: none;
+
+}
+
+
+
+.img {
+    width: 30px;
+    object-fit: contain;
+}
+
+.menu a {
+    font-size: 1 rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.menu a:hover {
+    color: black
+}
+
+.active__menu {
+    color: black !important
+}
+
+.cart__icon i,
+.user i,
+.mobile__menu i {
+
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+.cart__icon {
+    position: relative;
+}
+
+.cart__badge {
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    background-color: rgb(20, 4, 4);
+    color: aliceblue;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.headerbtn {
+    height: 20px;
+    width: 40px;
+    color: #FE5200;
+}
+
+
+.loginBtn {
+
+    /* padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #fff !important;
+    line-height: 1; */
+
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: -1px solid #fff !important;
+    line-height: 1;
+    margin: -2px;
+    margin-bottom: 19px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.nav_right {
+    height: 40px;
+    width: 60px;
+    border-radius: 8px;
+    border: 1px solid #fff !important;
+}

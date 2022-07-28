@@ -1,0 +1,116 @@
+.mainnav {
+    display: flex;
+    justify-content: left;
+    width: 550px;
+    height: 250px;
+
+}
+
+.homecon {
+    max-width: 1700px;
+}
+
+.searchbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-items: center; */
+    align-content: stretch;
+
+}
+
+
+.mainbar {
+    justify-content: space-between;
+    background-color: #ffece6 !important;
+}
+
+.mainup {
+    height: 350px;
+    justify-content: center;
+}
+
+.search-hover {
+    border: 2px solid white;
+    outline: none;
+    background-size: 22px px;
+    background-position: 13px;
+    background-color: #ffece6;
+    border-radius: 40px;
+    margin-top: 56px;
+    width: 250px;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 25px;
+    transition: all 0.5s;
+}
+
+
+.hero__btns button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    text-decoration: none;
+
+    border-radius: 5px;
+
+
+}
+
+.order__btn {
+    background-color: #FE5200;
+    color: #fff;
+}
+
+.order__btn:hover {
+    background: gray;
+}
+
+.all__foods-btn {
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #FE5200 !important;
+    color: #fff;
+}
+
+
+.all__foods-btn a {
+    text-decoration: none;
+    color: #FE5200;
+}
+
+.food__category {
+    background: #FE5200;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.food__category button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff
+}
+
+.food__category button img {
+    width: 20px;
+    height: 20px;
+}
+
+.foodBtnActive {
+    background: white !important;
+    border-radius: 5px;
+    color: red;
+    color: black;
+
+}
+
+.form-outline {
+    border: 2px solid red;
+    margin-left: 500px;
+}

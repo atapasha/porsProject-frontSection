@@ -1,0 +1,32 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    width: screen;
+    margin-top: 24px;
+    background-color: #3A3637;
+}
+
+.Footer1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    padding-right: 2px;
+    border-bottom: solid 1px #EAC8BB;
+}
+
+
+.Footer2 {
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+}
+
+.Footer3 {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    border-top: solid 1px #EAC8BB;
+}

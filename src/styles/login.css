@@ -1,0 +1,48 @@
+.loginForm {
+    position: center;
+    border: 1px solid rgb(255, 157, 0);
+    border-radius: 10px;
+    height: 550px !important;
+
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: start;
+    background-color: #FE5200;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(255, 157, 0);
+    border-radius: 10px;
+    height: 522px !important;
+    width: 393px !important;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: start;
+    justify-content: center;
+    text-align: center;
+    align-content: flex-start;
+    align-items: flex-start;
+
+}
+
+
+
+.loginBtn {
+
+    background-color: #FE5200;
+    border: 1px solid #fff;
+    color: #fff;
+    border: #FE5200;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+.col-12 {
+
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}

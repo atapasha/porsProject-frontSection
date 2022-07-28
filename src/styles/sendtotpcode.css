@@ -1,0 +1,36 @@
+.sendtotp {
+    top: 10% !important;
+    margin: 15px;
+    height: 500px;
+    width: 400px;
+    border: 1px solid rgb(250, 0, 0);
+    border-radius: 15px;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.number {
+    color: red;
+    font-size: 20px;
+    margin: 40px 11px;
+    padding-top: 20px;
+}
+
+.sendbtn {
+    text-decoration: none !important;
+    height: 40px;
+    width: 172px;
+    border: none;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+    color: white;
+    margin-top: 11px;
+}
+
+.sendbtn a {
+    text-decoration: none !important;
+    color: aliceblue;
+    font-weight: bold;
+}

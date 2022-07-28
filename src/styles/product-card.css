@@ -1,0 +1,31 @@
+.product__item {
+    border: 1px solid rgb(62, 62, 62);
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.product__img {
+    margin-bottom: 20px;
+    transition: 0.4;
+}
+
+.product__img:hover {
+    transform: scale(1.2);
+}
+
+.product__content h5 a {
+    color: black;
+
+}
+
+.product__content h5 {
+    margin-bottom: 20px;
+}
+
+.addToCart__btn {
+    border: none;
+    padding: 7px 25px;
+    background: rgb(240, 104, 7);
+    color: aliceblue;
+}
